@@ -1,0 +1,40 @@
+print("Pick a Vehicle:")
+print("1 - Bike")
+print("2 - Car")
+choice = int(input("Enter 1 or 2 for your selection of the vehicle: "))
+
+if choice == 1:
+    print("Pick A type of your bike:")
+    print("1 - Scooty")
+    print("2 - Mountain bike")
+
+    biketype = int(input("Enter 1 or 2 for the selection of your type of the bike:"))
+
+    if biketype == 1:
+        print("You Picked :   Scooty")
+        print("Top speed :   80 kmph")
+        print("Best For :    City Roads")
+    else:
+        print("You Picked : Mountain Bike")
+        print("Top speed : 40 kmph")
+        print("Best For : off-road trails ")
+
+
+elif choice == 2:
+    print("Pick a type of your car: ")
+    print("1 - Sedan")
+    print(" 2 - SUV")
+        
+
+    cartype = int(input("Enter your car type:"))
+    if cartype == 1:
+        print("You picked : Sedan")
+        print("Seats: 5 Passengers")
+        print("Top Speed : 40 kmph")
+        print("Best For : Family Trips")
+
+    else:
+        print("You Picked : SUV")
+        print("Seats: 7 passengers")
+        print("Top Speed : 50 kmph")
+        print("Best For : Off - road adventures")
